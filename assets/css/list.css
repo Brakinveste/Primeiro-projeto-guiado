@@ -1,0 +1,33 @@
+
+
+
+.tabela {
+    margin: auto;
+    padding: 20px;
+    width: 80vw;
+    border: 0px solid blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px hsla(0, 0%, 0%, 0.547);
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    font-family:Arial;
+    font-weight: 500;
+    font-size: 18px;
+    
+    letter-spacing: 1px;
+    vertical-align: top;   
+}
+
+.lista {
+    width: 100%;
+    border-spacing: 0px;
+    padding: 10px;
+    
+}
+
+.listagem {
+    font-family: Arial;
+}
