@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/primeiro-projeto-guiado/assets/css/style.css">
+    <link rel="stylesheet" href="/primeiro-projeto-guiado/assets/css/form.css">
+
     <title>Exemplo</title>
 </head>
 <body>
@@ -19,13 +21,42 @@
             Cadastrar
         </a>
     </div>
+    <section>
+        <div class="form-box">
+            <form class="formulario">
+                <div class="name">
+                    <label class="big-label" for="name">Nome:</label>
+                    <input name="nane" id="name" required type="text" />
+                </div>
+        
+                <div class="phone">
+                    <label class="big-label" for="phone">Telefone:</label>
+                    <input name="phone" id="phone" required type="text" />
+                </div>
+
+                <div class="xp-box" style="display: flex;">
+                    <div>
+                    <label class="big-label">Experiência Prévia:</label>
+                    </div>
+                    <div class="op" >   
+                        <input type="radio" name="xp" id="xp-y"/> <label for="xp-y">Sim</label>
+                        <br>
+                        <input type="radio" name="xp" id="xp-n"/> <label for="xp-n">Não</label>
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <input type="submit" placeholder="Salvar"/>
+                </div>
+            </form>
+        </div>
+
+
+    </section>
 
 
 
 
 
 
-
-    FORMULARIO
 </body>
 </html>

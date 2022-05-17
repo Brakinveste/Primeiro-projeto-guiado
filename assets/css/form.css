@@ -1,0 +1,89 @@
+
+.form-box {
+    margin: auto;
+    padding: 20px;
+    width: 50vw;
+    border: 0px solid blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px hsla(0, 0%, 0%, 0.547);
+    font-family: Arial;
+    font-weight: 600;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario div {
+    width: 100%;
+}
+
+.formulario .big-label {
+    padding: 10px 0px;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+
+}
+
+.xp-box {
+    display: flex;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    align-items: center;
+}
+
+.op {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.form-btn {
+    padding: 10px;
+    display: inline-block;
+    text-align: center; 
+}
+
+@media screen and (max-width:700px) {
+.form-box {
+    width: 400px;
+}
+
+.formulario input {
+    width: 100%;
+}    
+
+.xp-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.op {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario .big-label {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu a {
+    padding: 10px 40px;
+    
+}
+
+
+
+}
