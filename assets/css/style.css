@@ -10,6 +10,8 @@ body {
 
 header {
     background: linear-gradient(274deg, #0043ff, transparent);
+    margin: 0px;
+    width: 100%;
     padding: 10px;
 }
 
